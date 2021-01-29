@@ -1,0 +1,44 @@
+---
+title: "Main Report"
+author: "Anonymous"
+date: "1/29/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+source("cars_plot.R")
+source("cars_table.R")
+source("air_plot.R")
+source("air_table.R")
+```
+
+## Cars plot
+
+The plot below shows ....
+
+```{r }
+cars_plot()
+```
+
+## Cars Table
+
+Table of car data:
+
+```{r echo=FALSE}
+cars_table()
+```
+
+
+##  Air plot
+
+```{r }
+air_plot()
+```
+
+
+## Air table
+
+```{r }
+air_table()
+```

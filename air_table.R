@@ -1,5 +1,5 @@
 #' Basic function to display airquality data
 
 air_table <- function(){
-  head(airquality, n = 10)
+  head(airquality, n = 5)
 }

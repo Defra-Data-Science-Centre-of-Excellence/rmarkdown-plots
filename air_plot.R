@@ -1,6 +1,6 @@
 #' Basic function to plot airquality data
 
 air_plot <- function(){
-  print("Bug left in code")
-  plot(airquality$Wind, airquality$Temp, main = "Wind Vs Temp")
+
+  plot(airquality$Wind, airquality$Temp, main = "Test -not sure what temp data is")
 }
